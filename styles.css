@@ -80,16 +80,6 @@ body.light{
 
 @media(max-width:768px){
     body{
-        font-size: 14px;
-    }
-    #input{
-        margin-bottom: 5px;
-    }
-    #inner-body{
-        padding:60px;
-}
-    #outer-body{
-        border: none;
-        padding:70px;
+        font-size: 10px;
     }
 }
