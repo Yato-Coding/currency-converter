@@ -78,10 +78,10 @@ body.light{
 
 }
 
-@media(max-width:1000px){
+@media(max-width:1200px){
     body{
         font-size: 10px;
-        text-align: left;
+        text-align: center;
     }
     #inner-body{
         display: block;
@@ -90,7 +90,7 @@ body.light{
         padding:30px;
     }
     #outer-body{
-        display: inline-block;
+        display: block;
         border-radius: 0px;
         border: none;
         padding:30px;
