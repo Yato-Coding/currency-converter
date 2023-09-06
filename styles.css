@@ -81,7 +81,7 @@ body.light{
 @media(max-width:768px){
     body{
         font-size: 8px;
-        text-align: left;
+        text-align: center;
     }
     #inner-body{
         display: block;
