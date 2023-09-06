@@ -89,7 +89,7 @@ body.light{
         border:none;
         padding:5px;
     }
-    #body.dark{
+    body.dark{
         background-color: #32363e;
         color:white;
 
