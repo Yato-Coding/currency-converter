@@ -87,13 +87,13 @@ body.light{
         display: block;
         border-radius:0px;
         border:none;
-        padding:10px;
+        padding:0px;
     }
     #outer-body{
         display: block;
         border-radius: 0px;
         border: none;
-        padding:10px;
+        padding:0px;
         position:fixed;
         top:0%;
         left:0%;
