@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Geld-Umrechnung</title>
+		<link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="dark">
+		<div id="outer-body" class="dark">
+			<div>
+			    <h1><strong>Currency Converter<strong></h1><br>
+	    	</div>
+			<div id="inner-body" class="dark">
+				<div>
+					<label for="input">€</label>
+					<input type="number" id="input" name="input" onchange="convertEurToUS()" class="dark"> 
+				</div>
+				<div>
+					<label for="output">$</label>
+					<input type="number" id="output" name="output" value="" oninput="convertUSToEur()" class="dark">
+				</div>
+			</div>		
+		</div>
+		<div>
+			<button type="button" id="light-dark" onclick="switchMode()" style="background-color: brown;">Das ist ein Knopf</button>
+
+		</div>
+		
+	    <script>
+			function convertEurToUS(){
+				const input = document.getElementById("input").value;
+				const conversionRateEuro = 1.07475;
+				const dollar = (input*conversionRateEuro).toFixed(3);
+				document.getElementById("output").value = dollar;
+			}
+			function convertUSToEur(){
+				const input = document.getElementById("output").value;
+				const conversionRateUS = 0.93080787;
+				const Euro = (input*conversionRateUS).toFixed(3);
+				document.getElementById("input").value = Euro;
+			}
+			function switchMode(){
+			    const currentTheme = localStorage.getItem("theme")
+				let isDark = true;
+				if(currentTheme == "dark"){
+					isDark = true;
+				}
+				else{
+					isDark = false;
+				}
+
+				if(isDark){
+					document.querySelectorAll(".dark").forEach(function(element){
+						element.className = "light";
+					})
+					localStorage.setItem("theme", "light");
+				}
+				else{
+					document.querySelectorAll(".light").forEach(function(element){
+						element.className = "dark";
+					})
+					localStorage.setItem("theme", "dark");
+				}
+			}
+		</script>
+    </body>
+</html>
