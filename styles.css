@@ -90,8 +90,8 @@ body.light{
         padding:5px;
     }
     #body.dark{
-    background-color: #32363e;
-    color:white;
+        background-color: #32363e;
+        color:white;
 
 }
     #outer-body{
