@@ -82,4 +82,13 @@ body.light{
     body{
         font-size: 5px;
     }
+    #input{
+        margin-bottom: 5px;
+    }
+    #inner-body{
+        padding:20px;
+    }
+    #outer-body{
+        padding: 30px;
+    }
 }
