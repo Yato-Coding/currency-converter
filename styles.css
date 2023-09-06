@@ -80,7 +80,7 @@ body.light{
 
 @media(max-width:1920px){
     body{
-        font-size: 5px;
+        font-size: 14px;
     }
     #input{
         margin-bottom: 5px;
