@@ -81,19 +81,19 @@ body.light{
 @media(max-width:1200px){
     body{
         font-size: 10px;
-        text-align: center;
+        text-align: left;
     }
     #inner-body{
         display: block;
         border-radius:0px;
         border:none;
-        padding:30px;
+        padding:10px;
     }
     #outer-body{
         display: block;
         border-radius: 0px;
         border: none;
-        padding:30px;
+        padding:10px;
         position:fixed;
         top:0%;
         left:0%;
