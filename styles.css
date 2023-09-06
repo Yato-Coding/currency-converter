@@ -83,25 +83,4 @@ body.light{
         font-size: 8px;
         text-align: center;
     }
-    #inner-body{
-        display: block;
-        border-radius:0px;
-        border:none;
-        padding:5px;
-    }
-    body.dark{
-        background-color: #32363e;
-        color:white;
-
-}
-    #outer-body{
-        display: block;
-        border-radius: 0px;
-        border: none;
-        padding:5px;
-        position:fixed;
-        top:0%;
-        left:0%;
-        transform: translate(-0%, -0%);
-}
 }
