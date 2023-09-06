@@ -89,6 +89,11 @@ body.light{
         border:none;
         padding:0px;
     }
+    #body.dark{
+    background-color: #32363e;
+    color:white;
+
+}
     #outer-body{
         display: block;
         border-radius: 0px;
