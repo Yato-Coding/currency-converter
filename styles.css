@@ -86,9 +86,10 @@ body.light{
         margin-bottom: 5px;
     }
     #inner-body{
-        padding:20px;
-    }
+        padding:60px;
+}
     #outer-body{
-        padding: 30px;
+        border: none;
+        padding:70px;
     }
 }
