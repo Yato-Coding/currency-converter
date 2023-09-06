@@ -80,14 +80,14 @@ body.light{
 
 @media(max-width:1520px){
     body{
-        font-size: 10px;
+        font-size: 8px;
         text-align: left;
     }
     #inner-body{
         display: block;
         border-radius:0px;
         border:none;
-        padding:0px;
+        padding:5px;
     }
     #body.dark{
     background-color: #32363e;
@@ -98,7 +98,7 @@ body.light{
         display: block;
         border-radius: 0px;
         border: none;
-        padding:0px;
+        padding:5px;
         position:fixed;
         top:0%;
         left:0%;
